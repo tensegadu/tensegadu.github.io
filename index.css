@@ -20,12 +20,6 @@ p{
     position: absolute;
     transform: translate(-50%,-50%);
 }
-.Title{
-    padding: .5% 1%;
-    color: #f9f9f9;
-    background-color: #000;
-    border-radius: .5rem;
-}
 .Subtitle{
     padding: .5% 1%;
     color: #000;
@@ -78,20 +72,12 @@ footer{
     position: absolute;
 }
 @media (max-width: 1440px) {
-    .Title{
-        padding: .5% 1%;
-        border-radius: .5rem;
-    }
     .Subtitle{
         padding: .5% 1%;
         border-radius: .5rem;
     }
-    #Name{
-        top: 5%;
-        left: 50%;
-    }
     .Bio{
-        top: 16%;
+        top: 5%;
         left: 50%;
         width: 60vw;
     }
@@ -114,18 +100,11 @@ footer{
     #Rights{right: 0%;}
 }
 @media (max-width: 768px) {
-    .Title{
-        padding: 1% 2%;
-        border-radius: .7rem;
-    }
     .Subtitle{
         padding: 1% 2%;
     }
-    .Name{
-        top: 5%;
-    }
     .Bio{
-        top: 20%;
+        top: 5%;
         width: 85vw;
         font-size: 1rem;
     }
@@ -149,18 +128,11 @@ footer{
     }
 }
 @media (max-width: 480px) {
-    .Title{
-        padding: 2% 4%;
-        border-radius: .7rem;
-    }
     .Subtitle{
         padding:  2% 4%;
     }
-    .Name{
-        top: 5%;
-    }
     .Bio{
-        top: 16%;
+        top: 5%;
         width: 95vw;
         font-size: .8rem;
     }
@@ -189,36 +161,23 @@ footer{
     }
 }
 @media (min-width: 1441px) and (max-width: 2560px) {
-    .Title{
-        padding: .5% 1%;
-        font-size: 1.5rem;
-        border-radius: .8rem;
-    }
     .Icon{
         height: 2.5rem;
         vertical-align: middle;
     }
-    #Name{
-        left: 50%;
-        top: 5%;
-    }
     .Bio{
         left: 50%;
-        top: 16%;
+        top: 5%;
     }
     .Subtitle{
         padding: .5% 1%;
         font-size: 1.5rem;
         border-radius: .8rem;
     }
-    #Insights{
-        left: 10%;
-        top: 30%;
-        text-align: left;
-    }
+
     #Projects{
         left: 12.5%;
-        top: 5%;
+        top: 20%;
     }
     .Footer-CTA{
         font-size: 3rem;
